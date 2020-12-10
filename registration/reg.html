@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMW</title>
+  <style type="text/css">
+    body{
+    background: url('../img/back5.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  h1{
+    text-align: center;
+    font-size: 350%;
+    color: darkblue;
+  }
+  h2{
+    text-align: center;
+    font-size: 250%;    
+  }
+  .menu{
+    text-decoration-line:none;
+    color:rgb(93, 56, 14);
+    margin: 23px;    
+  }
+  .reg{
+      background: white;
+      color: black;
+      text-decoration-line:none;
+      font-weight: normal;
+      font-size: 20px;
+      padding: 3px;
+      border-style: double;
+      border-color: black;
+      border: thin solid;
+      
+    }
+  input{
+    font-size: 20px;
+  }
+  button{
+    font-size: 20px;
+  }
+  h3{
+    font-size: 250%;
+    text-align: center;
+  }
+  h4{
+    text-align: center;
+  }
+  .form{
+    font-size: 30px;
+  }
+  .inp{
+    font-size:28px;
+  }
+  .page{
+    font-size:28px ;
+  }
+  .in{
+    font-size:25px;
+  }
+  </style>
+</head>
+<body>
+  <h1>
+    B M W
+  </h1>
+  <h2>
+    <p>
+      <form>
+        <a class="menu" href="../index.html">Home</a>
+        <a class="menu" href="../iseries/iser.html">I-Series</a>
+        <a class="menu" href="../mseries/mser.html">M-Series</a>
+        <a class="menu" href="../xseries/xser.html">X-Series</a>
+        <a class="menu" href="../zseries/zser.html">Z-Series</a>
+        <input type="text" placeholder="Name">
+        <input type="password" placeholder="Password">
+        <button>Sign in</button>
+        <a class="reg" href="../registration/reg.html">Registration</a> 
+              
+      </form>
+    </p>
+  </h2>
+  <h3>Registration</h3>
+  <h4>
+    <form class="form">
+      <p>
+        <input class="inp" type="text" placeholder="Name" required>
+        <input class="inp" type="text" placeholder="Surname" required>
+      </p>
+      <p>
+      <input class="inp" type="number" placeholder="Phone">
+      <input class="inp" type="email" placeholder="Email" required>
+    </p>
+      <p>
+        <input class="inp" type="password" placeholder="Password" required>
+        <input class="inp" type="password" placeholder="Repassword" required>
+      </p>
+      <p>
+        <input class="inp" type="date" required>
+        <input class="inp" type="time"> 
+        
+        <label>
+          Male:
+          <input class="inp" type="radio" name="gender">
+        </label> 
+        <label>
+          Female:
+          <input class="inp" type="radio" name="gender">
+        </label> 
+      </p>
+      <p>
+        <input class="in" type="file">
+        <label>
+          books
+          <input class="inp" type="checkbox" name="reason">
+        </label>
+        <label>
+          media
+          <input class="inp" type="checkbox" name="reason">
+        </label>                           
+      </p>
+      <p>        
+        <button class="page">Register</button> 
+        <button class="page" type="reset">Reset</button>               
+      </p>
+    </form>
+  </h4>
+  
+</body>
+</html>
